@@ -1,0 +1,35 @@
+mark-4/
+│
+├── client/
+│   ├── index.html
+│   ├── products.html
+│   ├── cart.html
+│   ├── login.html
+│   ├── register.html
+│   │
+│   ├── css/
+│   │   ├── style.css
+│   │   └── home.css
+│   │
+│   ├── js/
+│   │   ├── app.js
+│   │   └── cart.js
+│   │
+│   └── assets/
+│       └── images/
+│
+├── admin/
+│   ├── dashboard.html
+│   ├── login.html
+│   ├── css/
+│   └── js/
+│
+├── server/
+│   ├── app.js
+│   ├── package.json
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── uploads/
+│
+└── README.mdS
