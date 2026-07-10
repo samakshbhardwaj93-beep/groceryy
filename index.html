@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARK-4 Grocery</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                MARK-4
+            </div>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Search groceries..."
+                    id="searchInput">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li>
+                    <a href="cart.html">
+                        Cart
+                        <span id="cartCount">0</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Fresh Groceries Delivered Fast</h1>
+
+            <p>
+                Fruits, Vegetables, Dairy,
+                Snacks and More.
+            </p>
+
+            <button class="shop-btn">
+                Shop Now
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Categories -->
+
+    <section class="categories">
+
+        <h2>Shop By Category</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">🥦 Vegetables</div>
+            <div class="category-card">🍎 Fruits</div>
+            <div class="category-card">🥛 Dairy</div>
+            <div class="category-card">🍞 Bakery</div>
+            <div class="category-card">🥤 Drinks</div>
+            <div class="category-card">🍪 Snacks</div>
+
+        </div>
+
+    </section>
+
+    <!-- Products -->
+
+    <section class="products">
+
+        <h2>Trending Products</h2>
+
+        <div class="product-grid" id="productGrid">
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>MARK-4 Grocery</h3>
+
+            <p>
+                Fresh groceries delivered to your doorstep.
+            </p>
+
+            <p>
+                © 2026 MARK-4 Grocery
+            </p>
+
+        </div>
+
+    </footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
